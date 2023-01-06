@@ -1,3 +1,3 @@
 from scrapy import cmdline
 
-cmdline.execute("scrapy crawl systemic_lupus_erythematosus -o systemic_lupus_erythematosus.json".split())
+cmdline.execute("scrapy crawl TTD -o TTD.json".split())

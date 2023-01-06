@@ -6,7 +6,7 @@
 import scrapy
 
 
-class SystemicLupusErythematosusItem(scrapy.Item):
+class TTDItem(scrapy.Item):
     TargetID = scrapy.Field()
     TargetName = scrapy.Field()
     TargetType = scrapy.Field()
